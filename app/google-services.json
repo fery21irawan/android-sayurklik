@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "153536232875",
+    "firebase_url": "https://sayurklikdotcom.firebaseio.com",
+    "project_id": "sayurklikdotcom",
+    "storage_bucket": "sayurklikdotcom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153536232875:android:13d88a39ba50894b54a6ee",
+        "android_client_info": {
+          "package_name": "com.sayurklik.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153536232875-7evasptfo3i643hre45rqe5mvt8prt35.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sayurklik.app",
+            "certificate_hash": "2cb38e72bfc4b63d950ac8e2361a0e264a80a0e0"
+          }
+        },
+        {
+          "client_id": "153536232875-7dih4n1d8rgtks6rvi7b4uv7o2fmru81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeUPS1O0Y18xZ_rD4Hj1H1LkuGAWRKF3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153536232875-7dih4n1d8rgtks6rvi7b4uv7o2fmru81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

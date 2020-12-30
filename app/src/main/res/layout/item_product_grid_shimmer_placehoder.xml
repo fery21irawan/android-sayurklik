@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+<androidx.cardview.widget.CardView
+    android:layout_margin="4dp"
+    card_view:cardCornerRadius="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image_product"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_cover_height"
+            android:background="#dddddd"
+            android:scaleType="fitXY" />
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/frame_disc"
+            android:background="@drawable/ic_favorite_border_black_24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+
+            <TextView
+                android:id="@+id/tx_diskon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="2dp"
+                android:text="20%"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_below="@id/image_product"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_product_title"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4c4c4c"
+                android:background="#dddddd"
+                android:textAlignment="center"
+                android:textSize="13dp" />
+            <TextView
+                android:id="@+id/text_product_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:background="#dddddd"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"/>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

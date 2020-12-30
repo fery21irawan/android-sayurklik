@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006064</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDarkGreen">#285C2A</color>
+    <color name="colorGrey">#DDDDDD</color>
+    <!--<color name="transparentBlack">#96000000</color>-->
+    <!--Color Status-->
+    <color name="colorSelesai">#689F38</color>
+    <color name="colorPengantaran">#0288D1</color>
+    <color name="colorDiKonfirmasi">#00796B</color>
+    <color name="colorPending">#E64A19</color>
+</resources>

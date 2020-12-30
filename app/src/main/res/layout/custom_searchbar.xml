@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            app:contentInsetStart="0dp"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                app:cardUseCompatPadding="true">
+
+                <com.mancj.materialsearchbar.MaterialSearchBar
+                    android:id="@+id/searchBar"
+                    style="@style/MaterialSearchBarLight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:mt_backIconTint="@color/colorPrimary"
+                    app:mt_clearIconTint="@color/colorPrimary"
+                    app:mt_hint="Mau Masak apa hari ini.."
+                    app:mt_hintColor="@color/colorPrimary"
+                    app:mt_maxSuggestionsCount="10"
+                    app:mt_navIconEnabled="true"
+                    app:mt_navIconTint="@color/colorPrimary"
+                    app:mt_speechMode="true"
+                    app:mt_placeholder="Sayurklik.com"
+                    app:mt_placeholderColor="@color/colorPrimary"
+                    app:mt_searchIconTint="@color/colorPrimary"
+                    app:mt_textColor="@color/colorPrimary" />
+            </androidx.cardview.widget.CardView>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+</LinearLayout>
